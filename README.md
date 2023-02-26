@@ -15,6 +15,7 @@ export const todoContentState = atom<TodoContent[]>({
   key: 'todoContents',
   default: [],
 });
+```
 
 - AtomFamily
 ```ts
@@ -22,6 +23,5 @@ export const todoCompleteState = atomFamily<boolean, string>({
   key: 'todoCompleteState',
   default: false,
 });
-```
 ```
 
