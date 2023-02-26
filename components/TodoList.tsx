@@ -8,7 +8,7 @@ import { TodoItem } from '@/components/TodoItem';
  */
 export function TodoList() {
   const todos = useRecoilValue(todoContentState);
-  console.log(todos);
+  // console.log(todos);
 
   return (
     <div>
